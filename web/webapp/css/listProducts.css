@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+.body,html{
+    height: 100%;
+}
+.card{
+    padding: 15px;
+    margin: 30px;
+    width: 400px;
+    height: 650px;
+    background: white;
+    float: left;
+}
+
+.namecard{
+    height:60px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    margin-bottom: 20px;
+}
+
+.wrap-card{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.buyButtonCard{
+    position: relative;
+    left: 80px;
+    bottom: -10px;
+}
+ .overviewCard{
+    height: 120px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     font-size: 15px;
+ }
+ .price{
+     float: left;
+     text-align: left;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 28px;
+     margin-top: 10px;
+ }
+ .filterField{
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     font-size: 20px;
+     margin-left: 40px;
+     margin-bottom: 50px;
+ }
+
+ .textInput{
+     width: 100px;
+     height: 48px;
+     border: solid;
+     border-width: 1px;
+     border-radius: 5px;
+     border-color: #3a3a3a;
+     padding-left: 5px;
+     padding-right: 5px;
+ }

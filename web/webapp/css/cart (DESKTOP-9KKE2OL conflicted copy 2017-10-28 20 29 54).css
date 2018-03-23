@@ -1,0 +1,10 @@
+.cardInCart{
+    padding: 15px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: 0px;
+    min-width: 950px;
+}
+.elemText{
+    float: left;
+}
